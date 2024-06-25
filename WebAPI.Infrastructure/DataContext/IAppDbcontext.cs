@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Infrastructure.DataContext
 {
-    public interface IApplicationDbContext : IDbContext
+    public interface IAppDbcontext : IDbContext
     {
 
     }

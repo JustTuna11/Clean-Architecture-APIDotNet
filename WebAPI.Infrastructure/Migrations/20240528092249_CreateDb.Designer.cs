@@ -11,7 +11,7 @@ using WebAPI.Infrastructure.DataContext;
 
 namespace WebAPI.Infrastructure.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20240528092249_CreateDb")]
     partial class CreateDb
     {
